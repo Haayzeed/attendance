@@ -1,0 +1,28 @@
+ion-content{
+    .main{
+      
+      img{
+        margin: 0 auto;
+        display: block;
+        margin-top: 40%;
+      }
+      h5{
+        text-transform: uppercase;
+        color:#04AB3D;
+        font-weight: bold;
+        margin-bottom: 0 !important;
+        text-align: center;
+      }
+      p{
+        color: #DBBD1F;
+        margin-top: 0 !important;
+      }
+      
+     
+    }
+    ion-tab-bar{
+        --background: #04AB3D !important;
+        --color: #fff !important;
+    
+     }
+  }

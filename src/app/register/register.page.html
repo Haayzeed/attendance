@@ -1,0 +1,18 @@
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="10" offset="1" class="main">
+        <img src="assets/logo.png" alt="">
+        <h5>student Registration</h5>
+        <p>Register to create your student account</p>
+        <ion-input type="text" placeholder="Enter Matric Number"></ion-input>
+        <ion-input type="text" placeholder="Enter Full Name"></ion-input>
+        <ion-input type="text" placeholder="Enter Department"></ion-input>
+        <ion-input type="password" placeholder="Enter Password"></ion-input>
+        <ion-router-link href="/login"><ion-button expand="block" class="btn-1">Register</ion-button></ion-router-link>
+        <p class="account">Don't have an account yet?<ion-router-link href="/login"> Login</ion-router-link></p>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

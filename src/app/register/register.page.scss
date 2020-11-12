@@ -1,0 +1,43 @@
+ion-content{
+    .main{
+      position: absolute;
+      top: 40%;
+      transform: translateY(-50%);
+      img{
+        margin: 0 auto;
+        display: block;
+      }
+      h5{
+        text-transform: uppercase;
+        color:#04AB3D;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 0 !important;
+        margin-top: 10%;
+      }
+      p{
+        color: #DBBD1F;
+        margin-top: 0 !important;
+
+      }
+      ion-input{
+          border: 2px solid lightgray;
+          margin-bottom: 10px;
+          padding-left: 10px !important;
+      }
+      ion-button{
+        --background: #04AB3D;
+        margin-bottom: 15px;
+        --border-radius: 0 !important;
+
+      }
+      .account{
+          text-align: center;
+          color: black;
+        ion-router-link{
+            color: #DBBD1F;
+            font-weight: bold;
+        }
+      }
+    }
+  }
